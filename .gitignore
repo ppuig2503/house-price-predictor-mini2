@@ -1,0 +1,32 @@
+# === Python (FastAPI) ===
+__pycache__/
+*.py[cod]
+*.pkl
+*.db
+*.sqlite3
+.env
+venv/
+.env/
+*.log
+
+# === Node / React ===
+node_modules/
+build/
+dist/
+.env.local
+.env.development
+.env.production
+npm-debug.log*
+
+# === Mac / Windows / IDEs ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Data (si no quieres subir datasets grandes) ===
+# data/
+# *.csv
+
+# === Other ===
+*.zip
